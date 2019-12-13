@@ -1,0 +1,32 @@
+左下角=>用户代码片段=>输入vue=》
+
+{
+  "Print to console": {
+    "prefix": "log",
+    "body": ["console.log('$1');", "$2"],
+    "description": "Log output to console"
+  },
+  "Create vue template": {
+    "prefix": "vue",
+    "body": [
+      "<template>",
+      "  <div class=\"\">",
+      "",
+      "  </div>",
+      "</template>",
+      "<script>",
+      "export default {",
+      "  name: \"\",",
+      "  data () {",
+      "    return {",
+      "    }",
+      "  }",
+      "}",
+      "</script>",
+      "<style lang=\"${2:stylus}\" scoped>",
+      "</style>",
+      ""
+    ],
+    "description": "Create vue template"
+  }
+}
